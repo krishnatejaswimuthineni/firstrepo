@@ -12,4 +12,8 @@ public class ProductSearchCriteria {
     private Status status;
     private int categoryId;
     private int brandId;
+    private Boolean includeCategory;
+    private Boolean includeBrand;
+    private Boolean includeStatus;
+
 }
